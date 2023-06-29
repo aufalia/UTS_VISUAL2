@@ -1,0 +1,167 @@
+object Form1: TForm1
+  Left = 870
+  Top = 28
+  Width = 495
+  Height = 384
+  Caption = 'PRAKTEK MANDIRI 1'
+  Color = clSkyBlue
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 72
+    Top = 72
+    Width = 57
+    Height = 13
+    Caption = 'INPUTAN 1'
+    Color = clWhite
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 72
+    Top = 112
+    Width = 57
+    Height = 13
+    Caption = 'INPUTAN 2'
+    Color = clWhite
+    ParentColor = False
+  end
+  object Edtnilai1: TEdit
+    Left = 168
+    Top = 64
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    Text = '0'
+  end
+  object Edtnilai2: TEdit
+    Left = 168
+    Top = 104
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = '0'
+  end
+  object Button1: TButton
+    Left = 320
+    Top = 72
+    Width = 121
+    Height = 49
+    Caption = 'PROSES SEMUA'
+    TabOrder = 2
+    OnClick = btn1Click
+  end
+  object GroupBox1: TGroupBox
+    Left = 72
+    Top = 144
+    Width = 369
+    Height = 169
+    Caption = 'NILAI DIPROSES'
+    Color = clBtnFace
+    ParentColor = False
+    TabOrder = 3
+    object Label3: TLabel
+      Left = 8
+      Top = 32
+      Width = 79
+      Height = 13
+      Caption = 'HASIL TAMBAH'
+      Color = clBtnFace
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 8
+      Top = 64
+      Width = 80
+      Height = 13
+      Caption = 'HASIL KURANG'
+    end
+    object Label5: TLabel
+      Left = 8
+      Top = 96
+      Width = 57
+      Height = 13
+      Caption = 'HASIL KALI'
+    end
+    object Label6: TLabel
+      Left = 8
+      Top = 128
+      Width = 59
+      Height = 13
+      Caption = 'HASIL BAGI'
+    end
+    object Edthasil1: TEdit
+      Left = 96
+      Top = 24
+      Width = 121
+      Height = 21
+      TabOrder = 0
+      Text = '0'
+    end
+    object Edthasil2: TEdit
+      Left = 96
+      Top = 56
+      Width = 121
+      Height = 21
+      TabOrder = 1
+      Text = '0'
+    end
+    object Edthasil3: TEdit
+      Left = 96
+      Top = 88
+      Width = 121
+      Height = 21
+      TabOrder = 2
+      Text = '0'
+    end
+    object Edthasil4: TEdit
+      Left = 96
+      Top = 120
+      Width = 121
+      Height = 21
+      TabOrder = 3
+      Text = '0'
+    end
+    object Button2: TButton
+      Left = 248
+      Top = 24
+      Width = 75
+      Height = 25
+      Caption = '+'
+      TabOrder = 4
+      OnClick = btn2Click
+    end
+    object Button3: TButton
+      Left = 248
+      Top = 56
+      Width = 75
+      Height = 25
+      Caption = '-'
+      TabOrder = 5
+      OnClick = btn3Click
+    end
+    object Button4: TButton
+      Left = 248
+      Top = 88
+      Width = 75
+      Height = 25
+      Caption = 'x'
+      TabOrder = 6
+      OnClick = btn4Click
+    end
+    object Button5: TButton
+      Left = 248
+      Top = 120
+      Width = 75
+      Height = 25
+      Caption = '/'
+      TabOrder = 7
+      OnClick = btn5Click
+    end
+  end
+end
